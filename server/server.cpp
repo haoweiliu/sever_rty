@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
         return -1;
     }
     cout << "http_server startup, port: " << port
-         << ", max connection is: " << MAX_EPOLL_SIZE << endl;
+         << ", max connection is: " << MAX_EPOLL_SIZE << " ,max buffer size is:"<< MAX_BUFFER_SIZE << endl;
 
 
     int nfds, connfd;
