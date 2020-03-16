@@ -6,7 +6,7 @@
 #include "httpResponse.h"
 #include "threadpool.h"
 
-#define MAX_BUFFER_SIZE 9192
+#define MAX_BUFFER_SIZE 10240
 #define MAX_RECV_LEN    20480
 
 extern std::map<int, std::string> m_recvBuf;
